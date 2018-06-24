@@ -8,6 +8,6 @@ print 'Content-type: text/html\n\n'
 def go():
     fs = cgi.FieldStorage()
     for s in fs.keys():
-        print s + ': ' + fs.getvalue(s);
+        print s + ': ' + fs.getvalue(s) + "<br>";
         
 go()
