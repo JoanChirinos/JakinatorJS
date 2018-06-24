@@ -11,7 +11,7 @@ text.onload = function () {
     var toAdd = (d[at]).substring(1);
     document.getElementById('questionArea').innerHTML = toAdd;
 }
-text.open("GET", "http://127.0.0.1:51526/qa.txt");
+text.open("GET", "http://homer.stuy.edu/~jchirinos/Jakinator/qa.txt");
 text.send();
 
 var d = {};
