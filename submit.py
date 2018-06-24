@@ -6,7 +6,7 @@ cgitb.enable();
 print 'Content-type: text/html\n\n'
 
 def go():
-    fs = cgi.fieldStorage()
+    fs = cgi.FieldStorage()
     for s in fs.keys():
         print s + ': ' + fs.getvalue(s);
         
