@@ -1,0 +1,23 @@
+body {
+    background-image: url(imgs/ricepaper_v3.png);
+}
+
+.sm-space {
+    height: 10px;
+}
+
+.md-space {
+    height: 20px;
+}
+
+.lg-space {
+    height: 30px;
+}
+
+#title {
+    font-family: 'Shrikhand', cursive;
+}
+
+.reg-text {
+    font-family: 'Lato', sans-serif;
+}
