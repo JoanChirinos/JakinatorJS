@@ -37,7 +37,7 @@ def go():
         toWrite += [key + "," + d[key]]
     toWrite = '\n'.join(toWrite)
     
-    straw = open('testQA.txt', 'w+')
+    straw = open('qa.txt', 'w+')
     straw.write(toWrite)
     straw.close()
     
