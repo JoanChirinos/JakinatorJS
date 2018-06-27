@@ -11,7 +11,7 @@ text.onload = function () {
     var toAdd = (d[at]).substring(1);
     document.getElementById('questionArea').innerHTML = toAdd;
 }
-text.open("GET", "http://homer.stuy.edu/~jchirinos/Jakinator/qa.txt");
+text.open("GET", "http://homer.stuy.edu/~jchirinos/Jakinator/qa.txt?t=" + Math.random(), true);
 text.send();
 
 var d = {};
